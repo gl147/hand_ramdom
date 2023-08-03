@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(156, 156, 187);
+}
+
+.container {
+  padding: 0;
+  width: 100hh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(82, 230, 109);
+}
+
+.hand_section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cards {
+  padding-top: 100px;
+  width: 440px;
+  padding: 10px;
+  background-color: rgb(79, 45, 226);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.first_card {
+  margin: 5px;
+  height: 300px;
+  margin: 5px;
+  width: 200px;
+  background-color: azure;
+  border: 2px solid #000;
+  border-radius: 15px;
+  font-size: 72pt;
+  color: aquamarine;
+}
+
+.second_card {
+  margin: 5 px;
+  height: 300px;
+  margin: 5px;
+  width: 200px;
+  background-color: azure;
+  border: 2px solid #000;
+  border-radius: 15px;
+  font-size: 72pt;
+  color: aquamarine;
+}
+
+.fcrange {
+  padding-left: 70px;
+  padding-bottom: 20px;
+  font-size: 100pt;
+}
+
+.scrange {
+  padding-left: 70px;
+  padding-bottom: 20px;
+  font-size: 100pt;
+}
+
+.generate_button_section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.generate_button {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100px;
+  background-color: aqua;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding-top: 20px;
+}
